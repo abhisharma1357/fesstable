@@ -10788,7 +10788,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2228,
+                        "referencedDeclaration": 2240,
                         "src": "15428:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_Fessstable_$2149",
@@ -11050,7 +11050,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2228,
+                        "referencedDeclaration": 2240,
                         "src": "16081:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_Fessstable_$2149",
@@ -12533,7 +12533,7 @@
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2227,
+                            "referencedDeclaration": 2239,
                             "src": "17093:4:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_contract$_Fessstable_$2149",
@@ -12787,7 +12787,7 @@
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 2227,
+                                "referencedDeclaration": 2239,
                                 "src": "17220:4:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_Fessstable_$2149",
@@ -14235,7 +14235,7 @@
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2227,
+                            "referencedDeclaration": 2239,
                             "src": "17985:4:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_contract$_Fessstable_$2149",
@@ -14489,7 +14489,7 @@
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 2227,
+                                "referencedDeclaration": 2239,
                                 "src": "18113:4:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_Fessstable_$2149",
@@ -29812,7 +29812,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2228,
+                        "referencedDeclaration": 2240,
                         "src": "15428:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_Fessstable_$2149",
@@ -30074,7 +30074,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2228,
+                        "referencedDeclaration": 2240,
                         "src": "16081:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_Fessstable_$2149",
@@ -31557,7 +31557,7 @@
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2227,
+                            "referencedDeclaration": 2239,
                             "src": "17093:4:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_contract$_Fessstable_$2149",
@@ -31811,7 +31811,7 @@
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 2227,
+                                "referencedDeclaration": 2239,
                                 "src": "17220:4:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_Fessstable_$2149",
@@ -33259,7 +33259,7 @@
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2227,
+                            "referencedDeclaration": 2239,
                             "src": "17985:4:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_contract$_Fessstable_$2149",
@@ -33513,7 +33513,7 @@
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 2227,
+                                "referencedDeclaration": 2239,
                                 "src": "18113:4:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_Fessstable_$2149",
@@ -38834,7 +38834,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.22",
-  "updatedAt": "2020-08-21T06:09:52.145Z",
+  "updatedAt": "2020-08-24T08:55:11.536Z",
   "devdoc": {
     "methods": {
       "allowance(address,address)": {

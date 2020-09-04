@@ -451,6 +451,7 @@ contract Fessstable is ERC20 {
     address payable public feesWallet;
     uint256 public rate; 
     fesschain public token;
+    uint256 public priceOfFesstoken;
     
 
     struct stakingDetails {
@@ -533,6 +534,13 @@ contract Fessstable is ERC20 {
         return true;
     }
 
+    function setPriceofToken(uint256 _price) public whenNotPaused onlyOwner returns (bool) {
+
+      priceOfFesstoken = _price;
+
+        return true;
+    }
+
 
     function mint(address _userAddress, uint256 _value) public whenNotPaused onlyOwner returns (bool) {
 
@@ -554,8 +562,8 @@ contract Fessstable is ERC20 {
        require(feesWallet != address(0), 'fee wallet address not set');
        require(msg.value >= feesAmount, 'fee value is less then required');
 
-       uint256 additionalValue = value.mul(rate).div(100);
-       uint256 totalvalueToSent = additionalValue.add(value);       
+       uint256 worthOfUSd = value.mul(priceOfFesstoken).div(100);
+       uint256 totalvalueToSent = worthOfUSd.add(worthOfUSd.mul(rate).div(100));       
 
        require(mint(msg.sender,totalvalueToSent),'Minting failed');
        feesWallet.transfer(msg.value);
